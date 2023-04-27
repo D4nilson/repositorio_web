@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+h1
+{
+    text-decoration: underline ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+}
+p
+{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}

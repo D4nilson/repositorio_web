@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shake</title>
+    <style>
+        body
+        {
+            background-color: rgb(161, 159, 159);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        input
+        {
+            outline: none
+        }
+        input:invalid
+        {
+            animation: shake .3s;
+        }
+        @keyframes shake
+        {
+            25% {transform: translate(4px)}
+            50% {transform: translate(-4px)}
+            75% {transform: translate(4px)}
+        }
+    </style>
+</head>
+<body>
+    <input 
+    type="text"
+    pattern="[a-z]*"
+    placeholder="what's your name?"
+    >
+</body>
+</html>

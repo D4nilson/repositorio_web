@@ -1,0 +1,134 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: blue;
+}
+.slider
+{
+    width: 800px;
+    height: 400px;
+    background-color: black;
+    overflow: hidden;
+    border: 2px solid black
+}
+.slides
+{
+    display: flex;
+    width: 400%;/*Esse 400% é para todos elementos dentro de slides em pixel vale 3200px*/
+    height: 400px;
+}
+input
+{
+    display: none;
+}
+.img
+{
+    width: 25%;
+    position: relative;
+    transition: 1s;
+}
+.imagem
+{
+    width: 800px;
+}
+.cor-todas
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin-top: -40px;
+}
+.cor
+{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px
+}
+.cor:not(:last-child)
+{
+    margin-right: 10px
+}
+#radio1:checked ~ .first /*Seletor irmão*/
+{
+    margin-left: 0;
+}
+#radio2:checked ~ .first
+{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first
+{
+    margin-left: -50%;
+}
+#radio4:checked ~ .first
+{
+    margin-left: -75%;
+}
+.cor:hover /*hover aplica um efeito no elemento quando o cursor estiver em cima dele.*/
+{
+    background: white;
+    transition: 0.3s;
+    cursor: pointer
+}
+.base-todas
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin-top: 360px;
+    
+}
+.base
+{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.base:not(:last-child)
+{
+    margin-right: 10px;
+}
+#radio1:checked ~ .base-todas .a
+{
+    background-color: white;
+}
+#radio2:checked ~ .base-todas .b
+{
+    background-color: white;
+}
+#radio3:checked ~ .base-todas .c
+{
+    background-color: white;
+}
+#radio4:checked ~ .base-todas .d
+{
+    background-color: white;
+}
+#back1
+{
+    background: blue;
+    transition: all 1s ease-in-out;
+}
+#back2
+{
+    background: green;
+    transition: all 1s ease-in-out;
+}
+#back3
+{
+    background: yellow;
+    transition: all 1s ease-in-out;
+}
+#back4
+{
+    background: brown;
+    transition: all 1s ease-in-out;
+}

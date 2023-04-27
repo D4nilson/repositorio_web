@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0%;
+            margin:0%;
+            box-sizing: border-box;
+            font-family: 'open Sans';
+        }
+        .laranja
+        {
+            background-color: rgb(243, 173, 43);
+            transition: all 0.25 ease-in-out
+        }
+        .vermelho
+        {
+            background-color: rgb(255, 0, 0);
+            transition: all 0.25 ease-in-out
+        }
+        .purpura
+        {
+            background-color: rgb(81, 0, 83);
+            transition: all 0.25 ease-in-out
+        }
+        button
+        {
+            padding: 5px 10px;
+            border: 0;
+            border-radius: 5px;
+            color: white;
+            cursor:pointer;
+            font-size: 22px;
+            font-weight: 300;
+            margin: 0 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <button class="laranja" id="btn-laranja">laranja</button>
+        <button class="vermelho" id="btn-vermelho">vermelho</button>
+        <button class="purpura" id="btn-purpura">purpura</button>
+    </div>
+</body>
+<script>
+    document.getElementById('btn-laranja').addEventListener('click',function(){document.querySelector('body').setAttribute('class','laranja')})
+
+    document.getElementById('btn-vermelho').addEventListener('click',function(){document.querySelector('body').setAttribute('class','vermelho')})
+
+    document.getElementById('btn-purpura').addEventListener('click',function(){document.querySelector('body').setAttribute('class','purpura')})
+</script>
+</html>

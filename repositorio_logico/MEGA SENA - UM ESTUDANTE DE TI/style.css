@@ -1,0 +1,36 @@
+body
+{
+    background: gray;
+    font-family: arial;
+    color: white;
+}
+h1
+{
+    background: rgb(15, 211, 8);
+}
+.numeros
+{
+    height: 25px;
+    width: 25px;
+    background: rgb(180, 180, 180);
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+.numeros:hover
+{
+    background: rgb(190, 190, 190);
+}
+.btn
+{
+    margin-bottom: 30px;
+    background: rgb(95, 95, 255);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    border-style: hidden;
+    height: 35px;
+    width: 80px;
+}

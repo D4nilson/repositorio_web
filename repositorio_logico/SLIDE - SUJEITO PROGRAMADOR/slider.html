@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slider"> 
+        <div class="slides">
+            <!-- inputs -->
+            <input type="radio" name="ligaçao" id="radio1" onclick="radio1()" checked>
+            <input type="radio" name="ligaçao" id="radio2" onclick="radio2()">
+            <input type="radio" name="ligaçao" id="radio3" onclick="radio3()">
+            <input type="radio" name="ligaçao" id="radio4" onclick="radio4()">
+
+            <!-- imagens -->
+            <div class="img first">
+                <img src="img/img1.jpg" alt="" class="imagem">
+            </div>
+            <div class="img">
+                <img src="img/img2.jpg" alt="" class="imagem">
+            </div>
+            <div class="img">
+                <img src="img/img3.jpg" alt="" class="imagem">
+            </div>
+            <div class="img">
+                <img src="img/img4.jpg" alt="" class="imagem">
+            </div>
+            <!-- pintar as labels -->
+            <div class="base-todas">
+                <div class="base a"></div>
+                <div class="base b"></div>
+                <div class="base c"></div>
+                <div class="base d"></div>
+            </div>
+        </div>
+
+        <!-- labels -->
+        <div class="cor-todas">
+            <label for="radio1" class="cor"></label>
+            <label for="radio2" class="cor"></label>
+            <label for="radio3" class="cor"></label>
+            <label for="radio4" class="cor"></label>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

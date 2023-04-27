@@ -1,0 +1,39 @@
+body
+{
+    background: orange;
+}
+.orange
+{
+    background: orange;
+    color: rgb(255, 224, 166);
+    transition: all 0.5s ease-in-out;
+    width: 60px;
+    cursor:pointer;
+}
+.red
+{
+    background: red;
+    color: rgb(255, 154, 154);
+    transition: all 0.5s ease-in-out;
+    width: 60px;
+    margin: 0 10px;
+    cursor:pointer;
+}
+.pink
+{
+    background: pink;
+    color: rgb(255, 234, 238);
+    transition: all 0.5s ease-in-out;
+    width: 60px;
+    cursor:pointer;
+}
+.botoes
+{
+    background: gray;
+    position: absolute;
+    padding: 20px;
+    border: 2px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
