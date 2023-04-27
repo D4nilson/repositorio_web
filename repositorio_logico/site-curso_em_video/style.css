@@ -126,6 +126,10 @@ main p
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
 }
+main p::selection
+{
+    background-color: var(--tom_verde_2);
+}
 main > article > picture > img
 {
     width: 100%;
