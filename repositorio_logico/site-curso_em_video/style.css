@@ -129,6 +129,7 @@ main p
 main p::selection
 {
     background-color: var(--tom_verde_2);
+    color: var(--tom_verde_4);
 }
 main > article > picture > img
 {
