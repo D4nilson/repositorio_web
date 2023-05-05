@@ -1,0 +1,75 @@
+@charset "UTF-8";
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body , html
+{
+    min-height: 100vh;
+
+    background-color: black;
+    color: white;
+}
+header
+{
+    background-image: linear-gradient(to top , rgb(0, 0, 0) , white);
+    color: black;
+    text-align: center;
+}
+header > h1
+{
+    padding-top: 45px;
+    font-variant: small-caps;
+}
+header > p
+{
+    padding-bottom: 50px;
+    color: white;
+}
+a
+{
+    color: rgb(168, 166, 166);
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover
+{
+    text-decoration: underline red;
+    transition-duration: .5s;
+}
+section
+{
+    padding-top: 10vh;
+    padding-bottom: 10Vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+.sessão_img > pre
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 400px;
+}
+.sessão_normal
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 4, 4);
+}
+.sessão_img
+{
+    
+}
+pre
+{
+    font-family: 'Times New Roman', Times, serif;
+    white-space: pre-line;
+}
+footer
+{
+    text-align: center;
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+    color: rgb(0, 0, 0);
+}
