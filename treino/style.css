@@ -1,6 +1,22 @@
-*
+
+body
 {
-    border: 0;
-    padding: 0;
-    outline: 0;
+    background-color: black;
+    color: white;
+}
+.container_pai
+{
+    width: 800px;
+    height: 500px;
+    background-color: rgb(125, 125, 125);
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+
+.container_filho01
+{
+    position: absolute;
+    height: 200px;
+    background-color: red;
 }
