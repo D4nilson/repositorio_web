@@ -1,22 +1,25 @@
-
-body
+*
 {
-    background-color: black;
-    color: white;
+    margin: 0;
 }
-.container_pai
+.div1
 {
-    width: 800px;
-    height: 500px;
-    background-color: rgb(125, 125, 125);
+    width: 200px;
+  
+    background-color: red;
+    border: 3px solid black;
     margin: auto;
-    padding: 10px;
-    position: relative;
+    padding: 70px 0px 0px 0px;
 }
-
-.container_filho01
+.div2
 {
     position: absolute;
-    height: 200px;
-    background-color: red;
+}
+pre
+{
+    white-space: pre-line;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.462);
+
+    line-height: 2em;
 }
